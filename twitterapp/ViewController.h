@@ -1,4 +1,4 @@
-//
+
 //  ViewController.h
 //  twitterapp
 //
@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <Twitter/Twitter.h>
+#import <Accounts/Accounts.h>
+#import <Social/Social.h>
+#import "STTwitterAPI.h"
+
 
 @interface ViewController : UIViewController
-
+@property (nonatomic, strong) STTwitterAPI *twitter;
 
 @end
 
